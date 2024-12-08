@@ -24,6 +24,6 @@ function closePopup() {
 
     // Redirect to the homepage after the pop-up is closed
     setTimeout(function() {
-        window.location.href = "sketch.html"; // Redirect to the Sketch page after a delay
+        window.location.href = "index.html"; // Redirect to the Sketch page after a delay
     }, 500); // Optional: Delay before redirect (500ms)
 }
