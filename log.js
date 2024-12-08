@@ -24,5 +24,5 @@ function closePopup() {
     document.getElementById("successPopup").style.display = "none";
 
     // Redirect to the homepage after the pop-up is closed
-    window.location.href = "sketch.html"; // Replace with your homepage URL
+    window.location.href = "index.html"; // Replace with your homepage URL
 }
