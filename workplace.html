@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workplace - SketchVision</title>
+    <link rel="stylesheet" href="sketch.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">SketchVision</div>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="workplace">
+        <h1>SketchVision Workplace</h1>
+        <canvas id="drawingCanvas" width="500" height="400" style="border: 1px solid #ccc;"></canvas>
+    
+        <div class="tools">
+            <label for="colorPicker">Color: </label>
+            <input type="color" id="colorPicker" value="#000000">
+            <label for="sizePicker">Size: </label>
+            <input type="range" id="sizePicker" min="1" max="10" value="5">
+        </div>
+    
+        <textarea id="textPrompt" placeholder="Enter your text prompt here..."></textarea>
+        
+        <div class="generate-button-container">
+            <button id="generateButton">Generate</button>
+        </div>
+    
+        <div id="outputContainer"></div>
+    </div>
+    
+    
+</body>
+</html>
